@@ -122,6 +122,61 @@ button {
     opacity: 1;
     transition: .5s ease;
 }
+@media (max-width: 999px) {
+    .logoImg {
+        height: 25vh;
+        width: 25vh;
+        right: 15vh;
+        z-index: 0;
+    }
+    .content {
+        left: 20vh;
+        top: 40vh;
+        z-index: 0;
+    }
+    #lg {
+        font-size: 30px;
+    }
+    .l {
+        font-size: 35px;
+    }
+    #lg1 {
+        font-size: 15px;
+    }
+    button {
+        width: 13vh;
+        height: 6vh;
+    }
+    #cont {
+        font-size: 15px;
+    }
+    nav.menu-lateral {
+        width: 10vh;
+        height: 100vh;
+        background-color: #202020;
+        padding: 40px 0px 40px 1%;
+        box-shadow: 3px 0 0 rgb(0, 211, 141);
+        position: fixed;
+        top: 0;
+        left: 0;
+        overflow: hidden;
+        transition: 1s;
+        z-index: 1;
+    }
+    nav.menu-lateral.expandir{
+        width: 32vh;
+        transition: 1s;
+        z-index: 1;
+    }
+    ul li.item-menu a .icon > i {
+        font-size: 4.5vh;
+        margin-left: 0;
+    }
+    ul li.item-menu a {
+        font-size: 3.5vh;
+        margin-bottom: 1vh;
+    }
+}
 
 @keyframes colors {
     0% {
