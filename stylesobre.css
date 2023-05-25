@@ -97,6 +97,44 @@ ul li.item-menu a .icon > i {
     font-size: 20px;
     color: #ffff;
 }
+@media (max-width: 999px) {
+
+    .ling {
+        top: 10vh;
+        left: 33vh;
+    }
+    .sobreMim {
+        font-size: 2.2vh;
+        text-align: center;
+        left: 11vh;
+    }
+    nav.menu-lateral {
+        width: 10vh;
+        height: 100vh;
+        background-color: #202020;
+        padding: 40px 0px 40px 1%;
+        box-shadow: 3px 0 0 rgb(0, 211, 141);
+        position: fixed;
+        top: 0;
+        left: 0;
+        overflow: hidden;
+        transition: 1s;
+        z-index: 1;
+    }
+    nav.menu-lateral.expandir{
+        width: 32vh;
+        transition: 1s;
+        z-index: 1;
+    }
+    ul li.item-menu a .icon > i {
+        font-size: 4.5vh;
+        margin-left: 0;
+    }
+    ul li.item-menu a {
+        font-size: 3.5vh;
+        margin-bottom: 1vh;
+    }
+}
 
 @keyframes colors {
     0% {
