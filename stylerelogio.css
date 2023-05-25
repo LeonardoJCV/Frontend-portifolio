@@ -113,6 +113,71 @@ ul li.item-menu a .icon > i {
     font-size: 30px;
     margin-left: 0;
 }
+@media (max-width: 999px) {
+
+    .relogio {
+        position: absolute;
+        left: 15vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 20vh;
+        width: 55vh;
+        background: transparent;
+        border-radius: 3px;
+        box-shadow: 0px 8px 10px rgba(0, 0, 0, .5);
+    }
+
+    .relogio div {
+        height: 15vh;
+        width: 15vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        background: rgba(5, 5, 5, .9);
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, .7);
+        border-radius: 7px;
+        letter-spacing: 3px;
+    }
+
+    .relogio span {
+        font-weight: bolder;
+        font-size: 15px;
+    }
+
+    #gost {
+        font-size: 2vh;
+    }
+
+    nav.menu-lateral {
+        width: 9.1vh;
+        height: 100vh;
+        background-color: #202020;
+        padding: 40px 0px 40px 1%;
+        box-shadow: 3px 0 0 rgb(0, 211, 141);
+        position: fixed;
+        top: 0;
+        left: 0;
+        overflow: hidden;
+        transition: 1s;
+        z-index: 1;
+    }
+    nav.menu-lateral.expandir{
+        width: 32vh;
+        transition: 1s;
+        z-index: 1;
+    }
+    ul li.item-menu a .icon > i {
+        font-size: 4.5vh;
+        margin-left: 0;
+    }
+    ul li.item-menu a {
+        font-size: 3.5vh;
+        margin-bottom: 1vh;
+    }
+}
 @keyframes colors {
     0% {
         background-position: 0% 50%;
