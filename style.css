@@ -123,6 +123,10 @@ button {
     transition: .5s ease;
 }
 @media (max-width: 999px) {
+    body {
+        background-size: 200% 200%;
+        animation: colors 7s ease infinite;
+    }
     .logoImg {
         height: 25vh;
         width: 25vh;
