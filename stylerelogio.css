@@ -114,7 +114,10 @@ ul li.item-menu a .icon > i {
     margin-left: 0;
 }
 @media (max-width: 999px) {
-
+    body {
+        background-size: 200% 200%;
+        animation: colors 7s ease infinite;
+    }
     .relogio {
         position: absolute;
         left: 12vh;
